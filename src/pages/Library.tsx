@@ -1,5 +1,5 @@
 import { useState, useMemo, useRef } from "react";
-import { useLanguage } from "@/contexts/LanguageContext";
+// import { useLanguage } from "@/contexts/LanguageContext";
 import { books, bookCategories, grades, Book } from "@/data/books";
 import {
   Search,
@@ -29,7 +29,6 @@ type ViewMode = "grid" | "list";
 type SortMode = "title" | "rating" | "downloads" | "grade";
 
 export default function Library() {
-  const { t } = useLanguage();
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("");
   const [gradeFilter, setGradeFilter] = useState<number | "">("");
