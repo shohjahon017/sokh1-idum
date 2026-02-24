@@ -1,6 +1,6 @@
 import { Language } from "@/data/teachers";
 import { translations, Translations } from "@/data/translations";
-import React, { createContext, useContext, useState, ReactNode } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 
 interface LanguageContextType {
   language: Language;
