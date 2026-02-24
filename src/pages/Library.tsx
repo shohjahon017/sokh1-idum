@@ -15,16 +15,13 @@ import {
   ChevronLeft,
   ChevronRight,
   GraduationCap,
-  Users,
   BookMarked,
-  Zap,
   ExternalLink,
   Heart,
   SortAsc,
   SortDesc,
   Grid,
   List,
-  Eye,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
